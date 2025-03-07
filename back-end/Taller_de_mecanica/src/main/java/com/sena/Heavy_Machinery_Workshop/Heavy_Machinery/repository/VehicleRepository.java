@@ -1,8 +1,9 @@
-package com.sena.Heavy_Machinery_Workshop.Taller_de_mecanica.repository;
+package com.sena.Heavy_Machinery_Workshop.Heavy_Machinery.repository;
 
-import com.sena.Heavy_Machinery_Workshop.Taller_de_mecanica.model.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.sena.Heavy_Machinery_Workshop.Heavy_Machinery.model.Vehicle;
 
 @Repository
 public interface VehicleRepository extends JpaRepository<Vehicle, Integer> {
