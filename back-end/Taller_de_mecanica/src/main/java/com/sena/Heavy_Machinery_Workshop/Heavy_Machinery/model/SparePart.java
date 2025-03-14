@@ -9,6 +9,7 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.CascadeType;
 import java.util.List;
+import java.util.Optional;
 
 @Entity
 @Table(name = "sparePart")
@@ -73,5 +74,30 @@ public class SparePart {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public List<SparePart> getAllSpareParts() {
+       
+        throw new UnsupportedOperationException("Unimplemented method 'getAllSpareParts'");
+    }
+
+    public Optional<SparePart> getSparePartById(Long id) {
+       
+        throw new UnsupportedOperationException("Unimplemented method 'getSparePartById'");
+    }
+
+    public SparePart createSparePart(SparePart sparePart) {
+       
+        throw new UnsupportedOperationException("Unimplemented method 'createSparePart'");
+    }
+
+    public SparePart updateSparePart(Long id, SparePart sparePartDetails) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'updateSparePart'");
+    }
+
+    public void createSparePart(Long id) {
+       
+        throw new UnsupportedOperationException("Unimplemented method 'createSparePart'");
     }
 }
